@@ -1,0 +1,85 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling Jumbotron */
+.Jumbotron {
+    padding: 100px;
+    background-image: url(./Assets/BACK.png);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    color: #fff;
+  }
+/* End Styling Jumbotron */
+
+/* Styling Main article */
+
+.isi-article h3 {
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+}
+
+.isi-article h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 8px;
+    
+}
+
+.isi-article p {
+  line-height: 25px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: smaller;
+  line-height: 30px;
+}
+/* ENd Styling Main Article */
+
+/* Styling Info and Media */
+.info-title h6 {
+  font-weight: 600;
+  font-size: large;
+  color: dimgray;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.info-desc h6 {
+  font-weight: 600;
+  font-size: 11px;
+  color: dimgray;
+  text-align: left;
+}
+
+.line-button {
+  background-color: rgba(105, 105, 105, 0.267);
+  height: 2px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.media-icon {
+  display: flex;
+}
+
+.icon-title h6 {
+  font-weight: 600;
+  font-size: large;
+  color: dimgray;
+  text-align: left;
+}
+
+.icon-img i{
+  color: dimgray;
+  margin-right: 10px;
+}
+
+.icon-img {
+  margin-left: 70px;
+}
+/* End Styling Info and Media */
