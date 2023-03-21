@@ -2,9 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .ourProgramBawah{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.latestEventAtas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.latestEventBawah{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.articlesAtas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.articlesBawah{
     display: flex;
     justify-content: space-between;
     
