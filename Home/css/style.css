@@ -1,0 +1,11 @@
+.ourProgramAtas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.ourProgramBawah{
+    display: flex;
+    justify-content: space-between;
+    
+}
