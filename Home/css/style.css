@@ -50,24 +50,24 @@ body, html {
 }
 
 .jumbotronButton a{
-    background-color: #1b4e6b;
+    background-color: lightblue;
     color: white;
     border-radius: 10px;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
-    padding: 16px 32px;
+    padding: 16px 45px;
     
 }
 
 .jumbotronButton a:hover{
+    background-color: #1b4e6b;
     color: white;
-    padding: 16px 32px;
-    background-color: lightblue;
+    padding: 16px 45px;
     transition: 0.3s;
 }
 
 .jumbotronButton {
-    padding-top: 510px;
-    padding-left: 80px;
+    padding-top: 550px;
+    /* padding-left: 80px; */
 }
