@@ -1,3 +1,8 @@
+
+body, html {
+    height: 100%;
+  }  
+
 .ourProgramAtas{
     display: flex;
     justify-content: space-between;
@@ -32,4 +37,37 @@
     display: flex;
     justify-content: space-between;
     
+}
+
+.jumbotron{
+    background-image: url('../Assets/background.png');
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotronButton a{
+    background-color: #1b4e6b;
+    color: white;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 32px;
+    
+}
+
+.jumbotronButton a:hover{
+    color: white;
+    padding: 16px 32px;
+    background-color: lightblue;
+    transition: 0.3s;
+}
+
+.jumbotronButton {
+    padding-top: 510px;
+    padding-left: 80px;
 }
