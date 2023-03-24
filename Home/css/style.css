@@ -16,9 +16,9 @@ body, html {
 }
 
 .jumbotronButton a{
-    background-color: lightblue;
+    background-color: #5eacdd;
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
@@ -76,7 +76,9 @@ body, html {
 /* CARD */
 
 .kartu{
-    border: none;
+    width: 20rem;
+    border-width: 1px;
+    border-style: outset;
     border-radius: 30px;
     padding: 30px;
     box-shadow: -16px 10px 5px 0px rgba(167,164,164,0.75);
@@ -111,10 +113,57 @@ body, html {
 }
 
 .titleHref{
-    color: #ffde59;
+    color: #e8bd3b;
 }
 
 .titleHref:hover{
     color: #1b4e6b;
     transition: 0.3s;
+}
+
+.card-date{
+    font-size: 10px;
+}
+
+.article-title{
+    color: #1b4e6b;
+    font-size: medium;
+}
+
+.article-title:hover{
+    color: #e8bd3b;
+    transition: 0.3s;
+}
+
+.category{
+    padding-bottom: 20px;
+}
+
+.event-category{
+    color: white;
+    background-color: #e8bd3b;
+    padding: 5px 12px;
+    font-size: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.event-category:hover{
+    color: white;
+    background-color: #1b4e6b;
+    transition: 0.3s;
+}
+
+.event-title{
+    text-align: left;
+    font-size: 12px;
+}
+
+.event-details{
+    color: #e8bd3b;
+    font-size: 12px;
 }
