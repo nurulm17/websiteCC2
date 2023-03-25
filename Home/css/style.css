@@ -172,6 +172,91 @@ body, html {
     padding-bottom: 15px;
 }
 
+.contactUs{
+    display: flex;
+    justify-content: center;
+}
+
+.contactUsRight{
+    background-color: #1b4e6b;
+    padding: 20px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contactUsRight h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: inherit;
+    color: #ffde59;
+}
+
 .contactUsLeft{
     background-color: #ffde59;
+    padding: 20px;
 }
+
+.input{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.email{
+    padding-bottom: 20px;
+}
+
+.email input{
+    width: 450px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.message textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.sendButton{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendButton button{
+    color: #1b4e6b;
+    background-color: #ffde59;
+    border-radius: 20px;
+    padding: 5px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.sendButton button:hover{
+    color: white;
+    background-color: #5eacdd;
+    transition: 0.5s;
+}
+
+/* INPUT HINT */
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+    font-size: 12px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+   font-size: 12px;
+
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 12px;
+    color: black;
+  }
