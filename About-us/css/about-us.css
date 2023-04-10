@@ -302,7 +302,8 @@ body {
   display: flex;
 }
 
-.card-foto-1 img, .card-foto-2 img {
+.card-foto-1 img,
+.card-foto-2 img {
   width: 170px;
   height: 170px;
   padding: 45px;
@@ -315,10 +316,92 @@ body {
   -moz-box-shadow: -12px 12px 5px -2px rgba(0, 0, 0, 0.4);
 }
 
-.card-foto-1 img:hover, .card-foto-2 img:hover {
+.card-foto-1 img:hover,
+.card-foto-2 img:hover {
   background-image: url(../img/foto-members-hover.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 170px;
   border-radius: 15px;
+}
+
+.testi {
+  display: flex;
+  max-width: 90%;
+  /* background-color: #2f668f; */
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testi-awal {
+  display: flex;
+  max-width: 90%;
+  /* background-color: #2f668f; */
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.testi-title {
+  font-family: Inter;
+  font-weight: 700;
+  text-align: left;
+  color: #2f668f;
+  font-size: 2em;
+  margin: 7% 0 6% 0;
+}
+
+.testi-container {
+  max-width: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -10px 6px 8px 0px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: -10px 6px 8px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: -10px 6px 8px 0px rgba(0, 0, 0, 0.45);
+}
+
+.testi-title-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+  padding-bottom: 20px;
+}
+
+.judul-testi h2 {
+  font-family: Inter;
+  font-weight: 700;
+  text-align: left;
+  color: #2f668f;
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 30px;
+}
+
+.judul-testi p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #4c4444;
+}
+
+.testi-isi p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: black;
+  text-align: justify;
 }
