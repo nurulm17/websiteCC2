@@ -47,3 +47,26 @@
   max-height: 83px;
   overflow: hidden;
 }
+
+/*FOOTER*/
+.ftr-content{
+  padding-bottom:  22px;
+}
+
+.ftr-title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ftr-p{
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+}
+
+.txt-copy{
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
