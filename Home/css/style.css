@@ -6,13 +6,28 @@ body, html {
 
 /* JUMBOTRON */
 .jumbotron{
-    background-image: url('../Assets/background.png');
+    background-image: url('../Assets/backgroundpolos.jpg');
 
+    width: 100%;
     height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    width: 300px;
+}
+
+.jumbotronCaption{
+    width: 80%;
+    padding-top: 160px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5eacdd;
 }
 
 .jumbotronButton a{
@@ -34,10 +49,20 @@ body, html {
 }
 
 .jumbotronButton {
-    padding-top: 550px;
+    margin-top: 120px;
     /* padding-left: 80px; */
 }
 
+.jumbotronContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jumbotronKanan img{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 95px;
+}
 /* SUBSECTIONS (CARDS CONTAINER) */
 
 .atas{
@@ -197,20 +222,20 @@ body, html {
     padding: 20px;
 }
 
-.input{
+.kolom{
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    width: 100%;
 }
 
-.email{
+.kolom{
     padding-bottom: 20px;
 }
 
-.email input{
+.kolom{
     width: 450px;
     height: 40px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .message textarea{
@@ -287,7 +312,54 @@ body, html {
 
   /* RESPONSIVE */
   @media only screen and ( max-width: 480px ){
+    .logo{
+        width: 200px;
+        left: 100px;
+        bottom: 200px;
+        top: 0;
+    }
+      .jumbotronButton {
+          margin-top: 10px;
+          /* padding-left: 80px; */
+        }
+        .jumbotronButton a{
+            font-size: 15px;
+            padding: 16px 35px;
+            
+        }
+            .jumbotronContainer{
+                display: flex;
+                justify-content: center;
+                flex-direction: column-reverse;
+            }
 
+    .jumbotronCaption{
+        width: 100%;
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #5eacdd;
+    }
+    
+    .jumbotronCaption h1{
+        font-size: 30px;
+    }
+
+    .jumbotronCaption h4{
+        font-size: 15px;
+    }
+
+    .jumbotronButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotronKanan img{
+        width: 180px;
+        margin-top: 100px;
+    }
     .contactUs{
         display: flex;
         flex-direction: column;
@@ -296,10 +368,6 @@ body, html {
     .item{
         margin-right: 10px;
     }
-    
-    }
-
-  @media only screen and ( min-width: 481px ) and (max-width : 780px ){
 
     .atas{
         display: flex;
@@ -318,17 +386,104 @@ body, html {
         width: auto;
         margin-right: 10px;
     }
-    .email input{
-        width: 300px;
-        height: 40px;
-        padding-left: 10px;
+    .kolom{
+        width: 100%;
+        height: 100%;
+        /* padding-left: 10px; */
     }
     
     .message textarea{
         padding-top: 10px;
         padding-left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contactUsRight{
+        display: flex;
+        flex-direction: column;
+    }
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    }
+
+  @media only screen and ( min-width: 481px ) and (max-width : 780px ){
+
+    .logo{
+        width: 200px;
+        left: 150px;
+        bottom: 200px;
+        top: 0;
+    }
+
+    .jumbotronButton {
+        margin-top: 50px;
+        /* padding-left: 80px; */
+    }
+
+    .jumbotronButton a{
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 16px 35px;
+        
+    }
+
+    .jumbotronCaption{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+
+    .jumbotronButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .jumbotronKanan img{
         width: 300px;
-        height: 150px;
+        margin-top: 55px;
+        /* margin-left: 95px; */
+    }
+
+    .atas{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+
+    .contactUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item{
+        width: auto;
+        margin-right: 10px;
+    }
+    .kolom{
+        width: 100%;
+        height: 100%;
+        /* padding-left: 10px; */
+    }
+    
+    .message textarea{
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        height: 100%;
     }
 
     .contactUsRight{
@@ -347,5 +502,11 @@ body, html {
         padding-right: 150px;
         padding-bottom: 20px;
     }   
+
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
     
     }
