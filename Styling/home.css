@@ -1,0 +1,512 @@
+
+body, html {
+    height: 100%;
+  }  
+
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url('../Assets/backgroundpolos.jpg');
+
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    width: 300px;
+}
+
+.jumbotronCaption{
+    width: 80%;
+    padding-top: 160px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5eacdd;
+}
+
+.jumbotronButton a{
+    background-color: #5eacdd;
+    color: white;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 45px;
+    
+}
+
+.jumbotronButton a:hover{
+    background-color: #1b4e6b;
+    color: white;
+    padding: 16px 45px;
+    transition: 0.5s;
+}
+
+.jumbotronButton {
+    margin-top: 120px;
+    /* padding-left: 80px; */
+}
+
+.jumbotronContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jumbotronKanan img{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+/* SUBSECTIONS (CARDS CONTAINER) */
+
+.atas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+
+.bawah{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subSection{
+    padding: 80px 0;
+}
+
+.title h1{
+    color: #1b4e6b;
+    font-weight: bold;
+}
+
+.seeMore a{
+    color: grey;
+    text-decoration: none;
+}
+
+.seeMore a:hover{
+    transition: 0.3s;
+    color: black;
+}
+
+/* CARD */
+
+.kartu{
+    width: 20rem;
+    border-width: 1px;
+    border-style: outset;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: -16px 10px 5px 0px rgba(167,164,164,0.75);
+    -webkit-box-shadow: -16px 10px 5px 0px rgba(167,164,164,0.75);
+    -moz-box-shadow: -16px 10px 5px 0px rgba(167,164,164,0.75);
+}
+
+.card-title{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.card img{
+    /* width: 80%; */
+    align-self: center;
+    padding: 15px;
+}
+
+.kartu-body{
+    padding-top: 20px;
+}
+
+.titleHref{
+    text-decoration: none;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.titleHref{
+    color: #e8bd3b;
+}
+
+.titleHref:hover{
+    color: #1b4e6b;
+    transition: 0.3s;
+}
+
+.card-date{
+    font-size: 10px;
+}
+
+.article-title{
+    color: #1b4e6b;
+    font-size: medium;
+}
+
+.article-title:hover{
+    color: #e8bd3b;
+    transition: 0.3s;
+}
+
+.category{
+    padding-bottom: 20px;
+}
+
+.event-category{
+    color: white;
+    background-color: #e8bd3b;
+    padding: 5px 12px;
+    font-size: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.event-category:hover{
+    color: white;
+    background-color: #1b4e6b;
+    transition: 0.3s;
+}
+
+.event-title{
+    text-align: left;
+    font-size: 12px;
+}
+
+.event-details{
+    color: #e8bd3b;
+    font-size: 12px;
+}
+
+.sosmed{
+    padding-bottom: 15px;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: center;
+}
+
+.contactUsRight{
+    background-color: #1b4e6b;
+    padding: 20px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contactUsRight h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: inherit;
+    color: #ffde59;
+}
+
+.contactUsLeft{
+    background-color: #ffde59;
+    padding: 20px;
+}
+
+.kolom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kolom{
+    padding-bottom: 20px;
+}
+
+.kolom{
+    width: 450px;
+    height: 40px;
+    /* padding-left: 10px; */
+}
+
+.message textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.sendButton{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendButton button{
+    color: #1b4e6b;
+    background-color: #ffde59;
+    border-radius: 20px;
+    padding: 5px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.sendButton button:hover{
+    color: white;
+    background-color: #5eacdd;
+    transition: 0.5s;
+}
+
+/* INPUT HINT */
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+    font-size: 12px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+   font-size: 12px;
+
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 12px;
+    color: black;
+  }
+
+   /*FOOTER*/
+.ftr-content{
+    padding-bottom:  22px;
+  }
+  
+  .ftr-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .ftr-p{
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .txt-copy{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+
+  /* RESPONSIVE */
+  @media only screen and ( max-width: 480px ){
+    .logo{
+        width: 200px;
+        left: 100px;
+        bottom: 200px;
+        top: 0;
+    }
+      .jumbotronButton {
+          margin-top: 10px;
+          /* padding-left: 80px; */
+        }
+        .jumbotronButton a{
+            font-size: 15px;
+            padding: 16px 35px;
+            
+        }
+            .jumbotronContainer{
+                display: flex;
+                justify-content: center;
+                flex-direction: column-reverse;
+            }
+
+    .jumbotronCaption{
+        width: 100%;
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #5eacdd;
+    }
+    
+    .jumbotronCaption h1{
+        font-size: 30px;
+    }
+
+    .jumbotronCaption h4{
+        font-size: 15px;
+    }
+
+    .jumbotronButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotronKanan img{
+        width: 180px;
+        margin-top: 100px;
+    }
+    .contactUs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        margin-right: 10px;
+    }
+
+    .atas{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+
+    .contactUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item{
+        width: auto;
+        margin-right: 10px;
+    }
+    .kolom{
+        width: 100%;
+        height: 100%;
+        /* padding-left: 10px; */
+    }
+    
+    .message textarea{
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contactUsRight{
+        display: flex;
+        flex-direction: column;
+    }
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    }
+
+  @media only screen and ( min-width: 481px ) and (max-width : 780px ){
+
+    .logo{
+        width: 200px;
+        left: 150px;
+        bottom: 200px;
+        top: 0;
+    }
+
+    .jumbotronButton {
+        margin-top: 50px;
+        /* padding-left: 80px; */
+    }
+
+    .jumbotronButton a{
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 16px 35px;
+        
+    }
+
+    .jumbotronCaption{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+
+    .jumbotronButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .jumbotronKanan img{
+        width: 300px;
+        margin-top: 55px;
+        /* margin-left: 95px; */
+    }
+
+    .atas{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+
+    .contactUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item{
+        width: auto;
+        margin-right: 10px;
+    }
+    .kolom{
+        width: 100%;
+        height: 100%;
+        /* padding-left: 10px; */
+    }
+    
+    .message textarea{
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contactUsRight{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+  @media only screen and ( min-width: 781px ) and (max-width: 1279){
+
+    .atas{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 95px;
+        padding-right: 150px;
+        padding-bottom: 20px;
+    }   
+
+    .jumbotronContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    }
