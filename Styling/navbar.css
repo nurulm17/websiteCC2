@@ -1,0 +1,10 @@
+.navbar {
+    transition: all .5s;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    background-color: #184660;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
