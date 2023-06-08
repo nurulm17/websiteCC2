@@ -9,11 +9,54 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link href="../Styling/navbar.css" rel="stylesheet">
   <link href="../Styling/program.css" rel="stylesheet">
   <title>Website CC</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="../Assets/cc_logo.png" alt="logo" width="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Program
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Public</a></li>
+              <li><a class="dropdown-item" href="#">Internal Only</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Event
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Public</a></li>
+              <li><a class="dropdown-item" href="#">Internal Only</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="px-4 py-5 text-center fun-title">
     <h1 class="display-5 pt-5 pb-3 fw-bold text-body-emphasis title">PROGRAM</h1>
   </div>
@@ -225,7 +268,7 @@
 
 
 
-    <script src="./Assets/program.js"></script>
+    <script src="../JS/js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
