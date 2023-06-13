@@ -11,13 +11,51 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link href="../Styling/navbar.css" rel="stylesheet">
   </head>
   <body>
     <!-- create navbar -->
-   <nav class="bg-danger">
-    <div class="">logo</div>
-    <div class="">menu</div>
-   </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../Assets/cc_logo.png" alt="logo" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Program
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Public</a></li>
+                <li><a class="dropdown-item" href="#">Internal Only</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Event
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Public</a></li>
+                <li><a class="dropdown-item" href="#">Internal Only</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- end create navbar -->
 
 
@@ -241,5 +279,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="../JS/js.js"></script>
   </body>
 </html>
